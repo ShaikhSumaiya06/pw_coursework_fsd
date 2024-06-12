@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-01</title>
+    <style>
+        header {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .navbar {
+            background-color: #6271fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 6px 10px;
+        }
+        
+        ul>li {
+            display: inline-block;
+            font-size: 1.2rem;
+        }
+        
+        ul>li+li {
+            margin-left: 2.5rem;
+            /* this style apply to all list element ,except first list element*/
+        }
+        
+        ul>li>a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        ul>li>a:hover {
+            color: #1d016b;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+    create a navigation bar similar to the below-mentioned image.
+    the navigation bar must contain 5 navigation links that are properly placed within the navigation 
+    bar using the CSS box model. the navigation items must change their text color on hover.
+ -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

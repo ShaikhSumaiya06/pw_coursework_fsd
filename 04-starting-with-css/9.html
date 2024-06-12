@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-09</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        input[type="text"] {
+            color: #799351;
+        }
+        
+        input[type="email"] {
+            color: #A1DD70;
+        }
+        
+        input[type="password"] {
+            color: #EE4E4E;
+        }
+        
+        input[type='submit'] {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        create a web page with a registration form, using the CSS attribute
+        selector change the text color of each input field to any other color.
+      -->
+    <h1>Registration Form</h1>
+    <form action="#" method="post">
+        <!-- user name -->
+        <label for="name">User Name : </label>
+        <input type="text" id="name" name="name" placeholder="enter username" required/><br><br>
+        <!-- email address -->
+        <label for="email">Email Address : </label>
+        <input type="email" name="email" id="email" required placeholder="enter email address" /><br><br>
+        <!-- password -->
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="password" required/> <br><br>
+        <!-- terms and contions -->
+        <input type="checkbox" name="terms" id="terms" required />
+        <label for="terms"> I agree to the terms and conditions</label><br><br>
+        <!-- submit -->
+        <input type="submit" value="Register">
+    </form>
+</body>
+
+</html>

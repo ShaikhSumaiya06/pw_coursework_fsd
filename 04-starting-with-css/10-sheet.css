@@ -1,0 +1,15 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #01204E;
+    color: white;
+    text-align: center;
+}
+
+.heading {
+    color: #028391;
+}
+
+.para1 {
+    margin: 10px 150px;
+    color: #FEAE6F;
+}

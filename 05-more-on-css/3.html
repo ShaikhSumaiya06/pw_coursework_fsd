@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-03 </title>
+    <style>
+        header {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .navbar {
+            background-color: #6271fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 4px 6px;
+        }
+        
+        ul>li {
+            display: inline-block;
+            font-size: 1.2rem;
+        }
+        
+        ul>li+li {
+            margin-left: 2.5rem;
+            /* this style apply to all list element ,except first list element*/
+        }
+        
+        ul>li>a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        ul>li>a:hover {
+            color: #1d016b;
+        }
+        
+        .item-1:hover {
+            border: 2px solid #000;
+            padding: 8px;
+        }
+        
+        .item-2:hover {
+            border: 2px dotted #ff3;
+            padding: 8px;
+        }
+        
+        .item-3:hover {
+            border: 2px dashed #ff3;
+            padding: 8px;
+        }
+        
+        .item-4:hover {
+            border: 2px inset #ff3;
+            padding: 8px;
+        }
+        
+        .item-5:hover {
+            border: 2px outset #ff3;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        create a navigation bar similar to question 1. for each navigation item use
+        a different border style.
+     -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="item-1">
+                    <a href="#">Home</a>
+                </li>
+                <li class="item-2">
+                    <a href="#">About Us</a>
+                </li>
+                <li class="item-3">
+                    <a href="#">Contact</a>
+                </li>
+                <li class="item-4">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="item-5">
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
