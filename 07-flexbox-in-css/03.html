@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-03</title>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .footer-container {
+            background-color: #1b2124;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #fff;
+            position: fixed;
+            bottom: 0px;
+            display: flex;
+            justify-content: center;
+            width: 100vw;
+        }
+        
+        .footer {
+            max-width: 1200px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            margin: 50px 10px;
+        }
+        
+        .section-1 {
+            max-width: 30%;
+            width: 100%;
+            margin-top: 25px;
+            margin-left: 100px;
+        }
+        
+        .section-1>.img2 {
+            width: 30%;
+            margin-left: -20px;
+        }
+        
+        .section-1>.img1 {
+            width: 25%;
+        }
+        
+        .section-1>.heading {
+            font-weight: bolder;
+            margin-bottom: 0px;
+        }
+        
+        .section-1>.mail {
+            font-weight: lighter;
+            margin-top: 4px;
+            margin-bottom: 40px;
+        }
+        
+        .section-1>.img2+p {
+            margin-left: 10px;
+        }
+        
+        .section-2 {
+            max-width: 40%;
+            width: 100%;
+        }
+        
+        td {
+            width: 150px;
+            height: 50px;
+        }
+        
+        .section-3 {
+            max-width: 30%;
+            width: 100%;
+        }
+        
+        .title {
+            font-size: 25px;
+        }
+        
+        hr {
+            border: 1px solid #c48e59;
+            margin-right: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- create a simple footer using css flexbox as shown in the below image
+    -the footer must contain some logos, email, and navigation links.
+    - the position of the footer must be fixed to the bottom.
+    -->
+    <section class="footer-container">
+        <div class="footer">
+            <div class="section-1">
+                <img class="img1" src="./assests/pwskills-logo.jpg" alt="logo" />
+                <p class="heading">Email Us:</p>
+                <p class="mail">support@pwskills.com</p>
+                <img class="img2" src="./assests/iso-certified-logo.jpg" alt="logo" />
+                <p>ISO 9001</p>
+            </div>
+            <div class="section-2">
+                <p class="title">PW Skills</p>
+                <hr/>
+                <table>
+                    <tr>
+                        <td>About Us</td>
+                        <td>Contact Us</td>
+                    </tr>
+                    <tr>
+                        <td>FAQs</td>
+                        <td>Job <br/>assistance</td>
+                    </tr>
+                    <tr>
+                        <td>Privacy policy</td>
+                        <td>Terms and <br/>conditions</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="section-3">
+                <p class="title">Products</p>
+                <hr/>
+                <p>PW Skills Lab</p>
+                <p>Job Portal</p>
+                <p>Experience Portal</p>
+                <p>Become an affiliate</p>
+                <p>Hall of fame</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

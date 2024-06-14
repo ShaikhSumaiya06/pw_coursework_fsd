@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-04</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 40px;
+            padding: 14px 25px;
+            border-bottom: 1.5px solid #696565;
+            margin: 0px 50px;
+        }
+        
+        .logo-section {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .logo-section>img {
+            width: 30px;
+        }
+        
+        .button-section {
+            display: flex;
+            gap: 20px;
+        }
+        
+        button {
+            border-radius: 4px;
+        }
+        
+        .btn1 {
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: #3d66ec;
+            padding: 10px 12px;
+        }
+        
+        .btn1:hover,
+        .btn2:hover {
+            background-color: #3d66ec;
+            color: #fff;
+            border: 0;
+        }
+        
+        .btn2 {
+            border: 1px solid #918f8f;
+            outline: 0;
+            background-color: transparent;
+            color: #3d66ec;
+            padding: 10px 18px;
+        }
+        
+        .btn3 {
+            padding: 10px 18px;
+            background-color: #3d66ec;
+            outline: 0;
+            border: 0;
+            color: #fff;
+        }
+        
+        .btn3:hover {
+            background-color: transparent;
+            color: #000;
+            border: 1px solid #918f8f;
+        }
+        
+        .image-section {
+            max-width: 50%;
+            width: 100%;
+        }
+        
+        .image-section>img {
+            width: 100%;
+        }
+        
+        .main-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 80px;
+        }
+        
+        .text-section>h1 {
+            font-size: 60px;
+            font-weight: light;
+            margin-bottom: 0px;
+        }
+        
+        .text-section>p {
+            margin-bottom: 0px;
+        }
+        
+        .text-section>.btns {
+            margin-top: 40px;
+        }
+        
+        .btns>.btn1 {
+            margin-left: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- create a simple gmail landing page -->
+    <header>
+        <nav>
+            <div class="logo-section">
+                <img src="./assests/gmail-logo.png" alt="Logo">
+                <p>Gmail</p>
+            </div>
+            <div class="button-section">
+                <button class="btn1">For Work</button>
+                <button class="btn2">Sign In</button>
+                <button class="btn3">Create an account</button>
+            </div>
+        </nav>
+    </header>
+    <main class="main-container">
+        <div class="text-section">
+            <h1>Secure,smart,<br>and easy to use<br> email </h1>
+            <p>Get more done with Gmail. Now integerated with Google <br>Chat, Google Meet, and more, all in one place.</p>
+            <div class="btns">
+                <button class="btn3">Create an account</button>
+                <button class="btn1">For Work</button>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="./assests/gmail-features.webp" alt="gmail-features">
+        </div>
+    </main>
+</body>
+
+</html>

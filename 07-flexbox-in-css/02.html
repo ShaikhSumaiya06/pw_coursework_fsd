@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-02</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: #cad5e2;
+        }
+        
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 100px;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .card {
+            max-width: 300px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            border: 0;
+        }
+        
+        .card>img {
+            width: 100%;
+        }
+        
+        .title {
+            font-weight: bold;
+            color: #5a4dba;
+            font-size: 18px;
+        }
+        
+        .educator {
+            font-size: 13px;
+            font-weight: lighter;
+        }
+        
+        .price {
+            font-weight: bolder;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #3838a1;
+            margin-bottom: 0px;
+        }
+        
+        h1+p {
+            font-size: 15px;
+            margin-top: 10px;
+            text-align: center;
+            color: #575757;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+    crate a simple webpage as shown in the below image.
+    - the webpage must contain course details.
+    - the cards must be aligned side by side. if any new card gets
+    added, the size of the cards must not be vaired and the flow must be moved the the next row automatically.
+ -->
+    <h1>Community Programs</h1>
+    <p class="subtitle">Open to all pro-live classes on Youtube for free.</p>
+    <div class="card-container">
+        <div class="card">
+            <img src="./assests/course-card-02.jpg" alt="Course01" />
+            <p class="title">Masterclass Understanding APIs in Web Development with RoadMap</p>
+            <p class="educator">Hitesh Choudhary</p>
+            <p class="price">FREE</p>
+        </div>
+        <div class="card">
+            <img src="./assests/course-card-01.jpg" alt="Course01" />
+            <p class="title">Masterclass Cracking The Coding Interview LinkedList</p>
+            <p class="educator">Vishwa Mohan</p>
+            <p class="price">FREE</p>
+        </div>
+        <div class="card">
+            <img src="./assests/course-card-03.jpg" alt="Course01" />
+            <p class="title">Masterclass Important of DSA in Modern Programming</p>
+            <p class="educator">Priya Bhatia</p>
+            <p class="price">FREE</p>
+        </div>
+    </div>
+</body>
+
+</html>
