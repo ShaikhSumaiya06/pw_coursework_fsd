@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-02</title>
+    <style>
+        .content {
+            background-color: #1f1f1f;
+            color: aliceblue;
+            min-height: 50vh;
+            padding: 50px 20px 50px 40px;
+            border-radius: 25px;
+        }
+        
+        .content>.text-section {
+            width: 65%;
+            float: left;
+        }
+        
+        .text-section>h1 {
+            font-size: 35px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        .text-section>p {
+            font-size: 16px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .text-section>button {
+            background-color: #6a49e0ef;
+            color: #fff;
+            border: none;
+            padding: 8px 12px;
+            font-weight: 300;
+            border-radius: 6px;
+        }
+        
+        .content>.image-section {
+            width: 350px;
+            float: right;
+        }
+        
+        .content>.image-section>img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        create a simple webpage as shown in the below image.
+        1. the webpage must contain a content section and image.
+        2. the content section with a heading, paragraph, and button 
+        must be aligned to the left and the iamge must be aligned to 
+        the right of the webpage.
+        3. the output must be achieved using the css float property and 
+        no css position property except float must be used.
+     -->
+    <section class="content">
+        <div class="text-section">
+            <h1>PW Skills Hall of Fame</h1>
+            <p>We are proud of our achievers to have proved their successs through hard-work and dedication which has enabled them to make their dreams come true. You too can be part of the PW Skills achiever group only if you stay consistent and be determined.
+            </p>
+            <button>Shares your Story</button>
+        </div>
+        <div class="image-section">
+            <img src="./assets/celebration.svg" alt="celebration-img">
+        </div>
+    </section>
+</body>
+
+</html>
