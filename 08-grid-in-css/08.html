@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-08</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: #1c1c1c;
+            color: #cad5e2;
+        }
+        
+        h1 {
+            font-size: 40px;
+            font-weight: normal;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            width: 100%;
+        }
+        
+        .grid-container {
+            display: grid;
+            gap: 50px;
+            grid-template-columns: repeat(4, 1fr);
+            margin: 0px 50px;
+        }
+        
+        .grid-container div {
+            padding: 200px 0px;
+            width: 100%;
+            border-radius: 20px;
+            text-align: center;
+            font-size: larger;
+            font-weight: bold;
+            color: #000;
+        }
+        
+        .grid-container div:nth-child(1) {
+            background-color: #8d3daf;
+        }
+        
+        .grid-container div:nth-child(2) {
+            background-color: #e07c24;
+        }
+        
+        .grid-container div:nth-child(3) {
+            background-color: #758283;
+        }
+        
+        .grid-container div:nth-child(4) {
+            background-color: #e03b8b;
+        }
+        
+        .grid-container div:nth-child(5) {
+            background-color: #ff6666;
+        }
+        
+        .grid-container div:nth-child(6) {
+            background-color: #03c6c7;
+        }
+        
+        .grid-container div:nth-child(7) {
+            background-color: #cad5e2;
+        }
+        
+        .grid-container div:nth-child(8) {
+            background-color: #35bdd0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- .
+        create a simple color picker using CSS grid to enable users to select colors efficiently. 
+        the objective is to design a visually appealing interface that allows users to choose colors 
+        and obtain their corresponding color codes. by leveraging CSS grid, ensure a user-friendly layout
+        that simplifies the color selection process. let's build a color picker similar to the one shown in the below image
+     -->
+    <div class="container">
+        <h1>Feeling Fancy</h1>
+        <div class="grid-container">
+            <div>#8d3daf</div>
+            <div>#e07c24</div>
+            <div>#758283</div>
+            <div>#e03b8b</div>
+            <div>#ff6666</div>
+            <div>#03c6c7</div>
+            <div>#cad5e2</div>
+            <div>#35bdd0</div>
+        </div>
+    </div>
+</body>
+
+</html>

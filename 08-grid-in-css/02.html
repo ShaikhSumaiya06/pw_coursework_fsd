@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-02</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        nav {
+            display: grid;
+            grid-template-columns: 20% 50% 30%;
+            justify-items: space-evenly;
+            align-items: center;
+            padding: 8px 12px;
+        }
+        
+        .nav-img {
+            width: 40px;
+        }
+        
+        .nav-links {
+            margin-left: 250px;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #000;
+            margin-right: 50px;
+            font-size: 18px;
+        }
+        
+        .nav-links a:hover {
+            padding: 4px 8px;
+            background-color: #32cd32;
+            color: #fff;
+            border-radius: 8px;
+        }
+        
+        .nav-btn {
+            width: 150px;
+            height: 35px;
+            font-weight: bold;
+            border: none;
+            background-color: #32cd32;
+            border-radius: 8px;
+            margin-left: 230px;
+        }
+        
+        .hero-section {
+            margin: 30px auto;
+            max-width: 1200px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 100px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .text-section button {
+            padding: 12px 40px;
+            color: #fff;
+            background-color: #000;
+            border: none;
+            margin-top: 20px;
+        }
+        
+        .image-section {
+            background-color: yellow;
+        }
+        
+        .image-section img {
+            width: 65%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        The landing page designed in question 01 showcases an impressive layout and design. 
+        However, it lacks a crucial component - a navigation bar. Without a navigation bar, users may find navigating 
+        through different sections of the website challenging. To address this issue, design a navigation bar using CSS
+        grid, as shown in the image below as of now there is no need to update the navigation links. Navigation Bars enhance
+        user experience , improve usability,and ensure easy access to various pages and content.
+     -->
+    <header>
+        <nav>
+            <img class="nav-img" src="./assests/healthy-food-logo.png" alt="food-logo" />
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+            <button class="nav-btn">Login</button>
+        </nav>
+    </header>
+    <main class="hero-section">
+        <div class="text-section">
+            <h1>Healthy food</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, pariatur quibusdam recusandae explicabo ipsam itaque delectus at quos laudantium ab suscipit. Blanditiis perferendis animi assumenda excepturi tempore quaerat quia, perspiciatis
+                ipsam aperiam aliquam, unde esse fugiat ipsum repudiandae praesentium illo saepe molestias veritatis voluptatem possimus et at voluptate. Minima, perferendis fuga dolor perspiciatis ea id delectus consequatur nobis, rerum a debitis beatae
+                .
+            </p>
+            <button>Read More</button>
+        </div>
+        <div class="image-section">
+            <img src="./assests/vegetable-portrait.jpg" alt="vegetable-logo" />
+        </div>
+    </main>
+</body>
+
+</html>
