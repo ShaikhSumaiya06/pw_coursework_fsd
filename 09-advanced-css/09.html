@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-09</title>
+    <style>
+         :root {
+            --d-flex: flex;
+            --p-10: 10px;
+            --color-white: #fff;
+            --color-grey: #ffffff62;
+        }
+        
+        .card {
+            width: 450px;
+            background-color: #242b2e;
+            padding: var(--p-10);
+            border: 3px solid var(--color-white);
+            display: var(--d-flex);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            margin: auto;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        img {
+            width: 110px;
+        }
+        
+        .content h1 {
+            text-align: center;
+            font-size: 30px;
+            color: var(--color-white);
+        }
+        
+        .content p {
+            height: 200px;
+            color: var(--color-grey);
+            overflow-y: scroll;
+            padding: var(--p-10);
+        }
+        
+         ::-webkit-scrollbar {
+            width: 2px;
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            border-radius: 2px;
+            background-color: var(--color-grey);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        Here, Our goal is to implement CSS 'webkit' and define CSS custom properties.
+        The expected output, as shown int he provided image, demonstrates the usage of the 
+        same color in multiple palces. To avoid repetition, we will define a custom color 
+        property at the top and utilize it throughout the wepage. Additionally, the content 
+        section will also incorporate a customized scrollbar by utilizing a CSS webkit to achieve the desired output.
+     -->
+    <section class="card">
+        <img src="./assests/apple-logo.png" alt="apple logo" />
+        <div class="content">
+            <h1>Apple Inc</h1>
+            <p>
+                Apple Inc., founded on April 1, 1976, by Steve Jobs, Steve Wozniak, and Ronald Wayne, is a multinational technology company headquartered in Cupertino, California. <br />
+                <br /> Apple is renowned for its innovative consumer electronics, software, and online services, including the iPhone, iPad, Mac, Apple Watch, and Apple TV. <br />
+                <br /> The company's success can be attributed to its commitment to sleek design, intuitive user interfaces, and seamless integration between hardware and software. <br />
+                <br /> Apple's ecosystem, centered around services like iCloud, iTunes, and the App Store, has created a loyal customer base and fosters an interconnected user experience across its products. <br />
+                <br /> Under the leadership of Steve Jobs, Apple revolutionized the technology industry with groundbreaking products like the iPod, iPhone, and iPad, setting new standards for smartphones, portable music players, and tablets.
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>

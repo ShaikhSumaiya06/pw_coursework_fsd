@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-07</title>
+    <style>
+        body {
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        button {
+            border: 0;
+            background: linear-gradient( 90deg, #4567dd 11%, #3c33c2 100%, #e9b18c 100%);
+            padding: 15px 40px;
+            border-radius: 10px;
+            animation: bounce 1s infinite alternate;
+        }
+        
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        @keyframes bounce {
+            0%,
+            100% {
+                transform: translateY(-25%);
+                animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            }
+            50% {
+                transform: translateY(0);
+                animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+    create an animated button  to capture the user's attention our landing page.
+    -->
+    <button>
+        <a href="https://pwskills.com">Click Me To Visit PW Skills.</a>    
+    </button>
+</body>
+
+</html>

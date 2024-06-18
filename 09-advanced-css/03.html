@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-03</title>
+    <style>
+        .card {
+            border: 2px solid #000;
+            width: 300px;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 200px auto;
+            background-image: linear-gradient( 90deg, #45a4dd 11%, #334ec2 100%, #e9b18c 100%);
+        }
+        
+        .head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0px;
+        }
+        
+        .head p {
+            color: #fff;
+        }
+        
+        .card:hover {
+            transform: rotate(-45deg);
+        }
+        
+        button {
+            background: linear-gradient( 90deg, #45dddb 11%, #33c25b 100%, #e9b18c 100%);
+            font-weight: bold;
+            border: 0;
+            outline: 0;
+            border-radius: 5px;
+            width: 100%;
+            padding: 10px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+    transforming an element by an angle using CSS transform is important as it allows for the creation of
+    visually dynamic and engaging web designs by rotating elements. In this coding challenge let's create a
+    sticky note and a hovering the sticky note, it should transform by rotating 90 degrees anti-clockwise. 
+    These types of transformations are usually implemented on the landing pages . Below are the images for reference.
+ -->
+    <section class="card">
+        <div class="head">
+            <h1>#01</h1>
+            <p>Created On : 01/01/2023</p>
+        </div>
+        <div class="body">
+            <h1>Important dates</h1>
+            <ul>
+                <li>January 26 - Republic Day</li>
+                <li>August 15 - Independence Day</li>
+                <li>October 2 - Gandhi Jayanti</li>
+                <li>August 29 - National Sports Day</li>
+            </ul>
+        </div>
+        <div class="foot">
+            <button>Mark As Done</button>
+        </div>
+    </section>
+</body>
+
+</html>
