@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+footer {
+    background-color: #121315;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 2%;
+}
+
+.one-card {
+    padding-bottom: 10px;
+    width: 20%;
+}
+
+.heading {
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+p {
+    color: #aeaeae;
+}
+
+.navigation a,
+.support a {
+    text-decoration: none;
+    display: block;
+    color: #aeaeae;
+    margin-bottom: 20px;
+}
+
+.newsletter input {
+    height: 40px;
+    padding: 20px;
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.newsletter button {
+    height: 40px;
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: #1765ad;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+@media screen and (max-width:768px) {
+    footer {
+        position: static;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .one-card,
+    .support,
+    .navigation,
+    .newsletter {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
